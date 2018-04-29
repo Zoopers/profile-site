@@ -4,6 +4,7 @@ import { InformaticsComponent } from './informatics/informatics.component';
 import { McdstComponent } from './mcdst/mcdst.component';
 import { SpatialdimensionComponent } from './spatialdimension/spatialdimension.component';
 import { PopcorntrainingComponent } from './popcorntraining/popcorntraining.component';
+import { PersonaloverviewComponent } from './personaloverview/personaloverview.component';
 
 const routes: Routes = [
   //{ path: 'heroes', component: HeroesComponent }
@@ -11,6 +12,7 @@ const routes: Routes = [
     {path: 'mcdst', component: McdstComponent},
     {path: 'spatialdimension', component: SpatialdimensionComponent},
     {path: 'popcorntraining', component: PopcorntrainingComponent},
+    {path: 'personaloverview', component: PersonaloverviewComponent},
 ];
 
 @NgModule({

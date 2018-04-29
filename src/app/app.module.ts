@@ -20,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DataTableModule } from 'primeng/primeng';
 import { FormsModule } from '@angular/forms';
 import { PanelModule } from 'primeng/panel';
+import { PersonaloverviewComponent } from './personaloverview/personaloverview.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { PanelModule } from 'primeng/panel';
     McdstComponent,
     SpatialdimensionComponent,
     PopcorntrainingComponent,
+    PersonaloverviewComponent,
   ],
   imports: [
     BrowserModule,

@@ -17,14 +17,15 @@ export class MenubarComponent implements OnInit {
   ngOnInit() {
     this.items = [
       {
-          label: 'Education',
+          label: 'Skills and Qualifications',
           items: [
               {label: 'BSc Informatics', routerLink: ['/bscinformatics']},
-              {label: 'MCDST', routerLink: ['/mcdst']}
+              {label: 'MCDST', routerLink: ['/mcdst']},
+              {label: 'Professional Skills', routerLink: ['/mcdst']},
           ]
       },
       {
-          label: 'Work',
+          label: 'Work Experience',
           items: [
               {label: 'Spatial Dimension', routerLink: ['/spatialdimension']},
               {label: 'Popcorn Training',  routerLink: ['/popcorntraining']}
@@ -33,6 +34,7 @@ export class MenubarComponent implements OnInit {
       {
         label: 'Personal Details',
         items: [
+          {label: 'Overview', routerLink: ['/personaloverview']},
           {label: 'About Me'},
       ]
       },
