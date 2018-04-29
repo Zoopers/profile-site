@@ -16,9 +16,10 @@ import { McdstComponent } from './mcdst/mcdst.component';
 import { SpatialdimensionComponent } from './spatialdimension/spatialdimension.component';
 import { PopcorntrainingComponent } from './popcorntraining/popcorntraining.component';
 
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DataTableModule } from 'primeng/primeng';
 import { FormsModule } from '@angular/forms';
+import { PanelModule } from 'primeng/panel';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     TableModule,
     DataTableModule,
-    FormsModule
+    FormsModule,
+    PanelModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
