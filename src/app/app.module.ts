@@ -27,6 +27,7 @@ import { ReadingComponent } from './reading/reading.component';
 import { AnimalsComponent } from './animals/animals.component';
 import { AboutComponent } from './about/about.component';
 import {CarouselModule} from 'primeng/carousel';
+import {GalleriaModule} from 'primeng/galleria';
 
 
 @NgModule({
@@ -60,6 +61,7 @@ import {CarouselModule} from 'primeng/carousel';
     FormsModule,
     PanelModule,
     CarouselModule,
+    GalleriaModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
