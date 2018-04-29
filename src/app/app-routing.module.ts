@@ -10,15 +10,17 @@ import { VideogamesComponent } from './videogames/videogames.component';
 import { ReadingComponent } from './reading/reading.component';
 import { AnimalsComponent } from './animals/animals.component';
 import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  //{ path: 'heroes', component: HeroesComponent }
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+    {path: 'home', component: HomeComponent},
     {path: 'bscinformatics', component: InformaticsComponent},
     {path: 'mcdst', component: McdstComponent},
     {path: 'spatialdimension', component: SpatialdimensionComponent},
     {path: 'popcorntraining', component: PopcorntrainingComponent},
     {path: 'personaloverview', component: PersonaloverviewComponent},
-    {path: 'about', component: AboutComponent},
+    //{path: 'about', component: AboutComponent},
     {path: 'skills', component: SkillsComponent},
     {path: 'videogames', component: VideogamesComponent},
     {path: 'reading', component: ReadingComponent},

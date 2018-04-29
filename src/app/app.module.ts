@@ -28,6 +28,7 @@ import { AnimalsComponent } from './animals/animals.component';
 import { AboutComponent } from './about/about.component';
 import {CarouselModule} from 'primeng/carousel';
 import {GalleriaModule} from 'primeng/galleria';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -46,6 +47,7 @@ import {GalleriaModule} from 'primeng/galleria';
     ReadingComponent,
     AnimalsComponent,
     AboutComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
