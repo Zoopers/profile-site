@@ -22,6 +22,11 @@ import { FormsModule } from '@angular/forms';
 import { PanelModule } from 'primeng/panel';
 import { PersonaloverviewComponent } from './personaloverview/personaloverview.component';
 import { SkillsComponent } from './skills/skills.component';
+import { VideogamesComponent } from './videogames/videogames.component';
+import { ReadingComponent } from './reading/reading.component';
+import { AnimalsComponent } from './animals/animals.component';
+import { AboutComponent } from './about/about.component';
+import {CarouselModule} from 'primeng/carousel';
 
 
 @NgModule({
@@ -36,6 +41,10 @@ import { SkillsComponent } from './skills/skills.component';
     PopcorntrainingComponent,
     PersonaloverviewComponent,
     SkillsComponent,
+    VideogamesComponent,
+    ReadingComponent,
+    AnimalsComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +59,7 @@ import { SkillsComponent } from './skills/skills.component';
     DataTableModule,
     FormsModule,
     PanelModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

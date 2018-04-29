@@ -19,3 +19,24 @@ body {
 .pageTitle {
   text-align: center;
 }
+
+.mediaDiv {
+  background: #ebedf0;
+  text-align: center;
+  width: 48%;
+  display: inline-block;
+  border-width:1px;
+  border-style:solid;
+  border-color:#d9d9d9;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.mediaTitle {
+  font-size: 16pt;
+}
+
+.mediaButton {
+  margin-bottom: 10px;
+  justify-content: center;
+}

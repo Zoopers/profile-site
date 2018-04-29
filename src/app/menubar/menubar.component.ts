@@ -35,7 +35,14 @@ export class MenubarComponent implements OnInit {
         label: 'Personal Details',
         items: [
           {label: 'Overview', routerLink: ['/personaloverview']},
-          {label: 'About Me'},
+          {label: 'About Me', routerLink: ['/about']},
+      ]
+      },{
+        label: 'Hobbies and Interests',
+        items: [
+          {label: 'Videogames', routerLink: ['/videogames']},
+          {label: 'Reading', routerLink: ['/reading']},
+          {label: 'Animals', routerLink: ['/animals']},
       ]
       },
   ];

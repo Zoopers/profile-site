@@ -6,6 +6,10 @@ import { SpatialdimensionComponent } from './spatialdimension/spatialdimension.c
 import { PopcorntrainingComponent } from './popcorntraining/popcorntraining.component';
 import { PersonaloverviewComponent } from './personaloverview/personaloverview.component';
 import { SkillsComponent } from './skills/skills.component';
+import { VideogamesComponent } from './videogames/videogames.component';
+import { ReadingComponent } from './reading/reading.component';
+import { AnimalsComponent } from './animals/animals.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   //{ path: 'heroes', component: HeroesComponent }
@@ -14,7 +18,12 @@ const routes: Routes = [
     {path: 'spatialdimension', component: SpatialdimensionComponent},
     {path: 'popcorntraining', component: PopcorntrainingComponent},
     {path: 'personaloverview', component: PersonaloverviewComponent},
+    {path: 'about', component: AboutComponent},
     {path: 'skills', component: SkillsComponent},
+    {path: 'videogames', component: VideogamesComponent},
+    {path: 'reading', component: ReadingComponent},
+    {path: 'animals', component: AnimalsComponent},
+
 ];
 
 @NgModule({
