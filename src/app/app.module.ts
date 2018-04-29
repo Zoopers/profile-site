@@ -21,6 +21,7 @@ import { DataTableModule } from 'primeng/primeng';
 import { FormsModule } from '@angular/forms';
 import { PanelModule } from 'primeng/panel';
 import { PersonaloverviewComponent } from './personaloverview/personaloverview.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { PersonaloverviewComponent } from './personaloverview/personaloverview.c
     SpatialdimensionComponent,
     PopcorntrainingComponent,
     PersonaloverviewComponent,
+    SkillsComponent,
   ],
   imports: [
     BrowserModule,

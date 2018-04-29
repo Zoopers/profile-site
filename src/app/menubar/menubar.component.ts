@@ -21,7 +21,7 @@ export class MenubarComponent implements OnInit {
           items: [
               {label: 'BSc Informatics', routerLink: ['/bscinformatics']},
               {label: 'MCDST', routerLink: ['/mcdst']},
-              {label: 'Professional Skills', routerLink: ['/mcdst']},
+              {label: 'Professional Skills', routerLink: ['/skills']},
           ]
       },
       {
