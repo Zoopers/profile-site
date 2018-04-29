@@ -1,10 +1,16 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { UnisaComponent } from './unisa/unisa.component';
+import { InformaticsComponent } from './informatics/informatics.component';
+import { McdstComponent } from './mcdst/mcdst.component';
+import { SpatialdimensionComponent } from './spatialdimension/spatialdimension.component';
+import { PopcorntrainingComponent } from './popcorntraining/popcorntraining.component';
 
 const routes: Routes = [
   //{ path: 'heroes', component: HeroesComponent }
-    {path: 'unisa', component: UnisaComponent},
+    {path: 'bscinformatics', component: InformaticsComponent},
+    {path: 'mcdst', component: McdstComponent},
+    {path: 'spatialdimension', component: SpatialdimensionComponent},
+    {path: 'popcorntraining', component: PopcorntrainingComponent},
 ];
 
 @NgModule({

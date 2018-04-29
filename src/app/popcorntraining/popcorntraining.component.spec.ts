@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UnisaComponent } from './unisa.component';
+import { PopcorntrainingComponent } from './popcorntraining.component';
 
-describe('UnisaComponent', () => {
-  let component: UnisaComponent;
-  let fixture: ComponentFixture<UnisaComponent>;
+describe('PopcorntrainingComponent', () => {
+  let component: PopcorntrainingComponent;
+  let fixture: ComponentFixture<PopcorntrainingComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ UnisaComponent ]
+      declarations: [ PopcorntrainingComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UnisaComponent);
+    fixture = TestBed.createComponent(PopcorntrainingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

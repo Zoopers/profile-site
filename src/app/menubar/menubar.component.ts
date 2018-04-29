@@ -19,21 +19,21 @@ export class MenubarComponent implements OnInit {
       {
           label: 'Education',
           items: [
-              {label: 'BSc Informatics'},
-              {label: 'MCDST'}
+              {label: 'BSc Informatics', routerLink: ['/bscinformatics']},
+              {label: 'MCDST', routerLink: ['/mcdst']}
           ]
       },
       {
           label: 'Work',
           items: [
-              {label: 'Spatial Dimension', },
-              {label: 'Popcorn Training',}
+              {label: 'Spatial Dimension', routerLink: ['/spatialdimension']},
+              {label: 'Popcorn Training',  routerLink: ['/popcorntraining']}
           ]
       },
       {
         label: 'Personal Details',
         items: [
-          {label: 'Life'},
+          {label: 'About Me'},
       ]
       },
   ];

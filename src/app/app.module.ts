@@ -8,9 +8,12 @@ import {ButtonModule} from 'primeng/button';
 import {MenuModule} from 'primeng/menu';
 import {MegaMenuModule} from 'primeng/megamenu';
 import { AppRoutingModule } from './/app-routing.module';
-import { UnisaComponent } from './unisa/unisa.component';
 import { MenubarComponent } from './menubar/menubar.component';
 import { MenubarModule, MenuItem } from 'primeng/primeng';
+import { InformaticsComponent } from './informatics/informatics.component';
+import { McdstComponent } from './mcdst/mcdst.component';
+import { SpatialdimensionComponent } from './spatialdimension/spatialdimension.component';
+import { PopcorntrainingComponent } from './popcorntraining/popcorntraining.component';
 
 
 @NgModule({
@@ -18,8 +21,11 @@ import { MenubarModule, MenuItem } from 'primeng/primeng';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    UnisaComponent,
     MenubarComponent,
+    InformaticsComponent,
+    McdstComponent,
+    SpatialdimensionComponent,
+    PopcorntrainingComponent,
   ],
   imports: [
     BrowserModule,

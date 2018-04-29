@@ -7,5 +7,4 @@ import {ButtonModule} from 'primeng/button';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {
-  title = 'app';
 }
