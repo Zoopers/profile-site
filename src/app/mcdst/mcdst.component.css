@@ -1,0 +1,21 @@
+#content {
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+#details {
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+
+}
+
+#details h3 {
+    margin-bottom: 2%;
+}
+.label {
+    width: 25%;
+}
