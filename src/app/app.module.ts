@@ -6,14 +6,19 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import {ButtonModule} from 'primeng/button';
 import {MenuModule} from 'primeng/menu';
+import {TableModule} from 'primeng/table';
 import {MegaMenuModule} from 'primeng/megamenu';
 import { AppRoutingModule } from './/app-routing.module';
 import { MenubarComponent } from './menubar/menubar.component';
-import { MenubarModule, MenuItem } from 'primeng/primeng';
+import { MenubarModule, MenuItem, AccordionModule } from 'primeng/primeng';
 import { InformaticsComponent } from './informatics/informatics.component';
 import { McdstComponent } from './mcdst/mcdst.component';
 import { SpatialdimensionComponent } from './spatialdimension/spatialdimension.component';
 import { PopcorntrainingComponent } from './popcorntraining/popcorntraining.component';
+
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { DataTableModule } from 'primeng/primeng';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -34,6 +39,11 @@ import { PopcorntrainingComponent } from './popcorntraining/popcorntraining.comp
     MegaMenuModule,
     AppRoutingModule,
     MenubarModule,
+    AccordionModule,
+    BrowserAnimationsModule,
+    TableModule,
+    DataTableModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

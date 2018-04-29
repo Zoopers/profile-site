@@ -1,3 +1,70 @@
-<p>
-  informatics works!
-</p>
+<div id="content">
+    <h1 class="pageTitle">Bachelor of Science in Informatics</h1>
+  <div id="details">
+    <h3>Details</h3>
+    <label class="label">Institution: </label>
+    <label>UNISA - The University of South Africa</label><br>
+    <label class="label">Qualification stream: </label>
+    <label>Informatics</label><br>
+    <label class="label">NQF level: </label>
+    <label>NQF7</label><br>
+    <label class="label">Year completed: </label>
+    <label>2017</label><br>
+    <label class="label">More Info: </label>
+    <a target="_blank" href="http://www.unisa.ac.za/sites/corporate/default/Register-to-study-through-Unisa/Undergraduate-&-honours-qualifications/Find-your-qualification-&-choose-your-modules/All-qualifications/Bachelor-of-Science-in-Informatics-Informatics-(98907-%E2%80%93-INF)">
+      BSc Informatics</a><br>
+  </div>
+  <div id="accordion">
+      <p-accordion>
+          <p-accordionTab header="First Year Modules">
+              <p-table [value]="firstyearmodules">
+                  <ng-template pTemplate="header">
+                      <tr>
+                          <th>Module Code</th>
+                          <th>Module Name</th>
+                      </tr>
+                  </ng-template>
+                  <ng-template pTemplate="body" let-module>
+                      <tr>
+                          <td>{{module.code}}</td>
+                          <td>{{module.name}}</td>
+                      </tr>
+                  </ng-template>
+              </p-table>
+          </p-accordionTab>
+          <p-accordionTab header="Second Year Modules">
+              <p-table [value]="secondyearmodules">
+                  <ng-template pTemplate="header">
+                      <tr>
+                          <th>Module Code</th>
+                          <th>Module Name</th>
+                      </tr>
+                  </ng-template>
+                  <ng-template pTemplate="body" let-module>
+                      <tr>
+                          <td>{{module.code}}</td>
+                          <td>{{module.name}}</td>
+                      </tr>
+                  </ng-template>
+              </p-table>
+          </p-accordionTab>
+          <p-accordionTab header="Third Year Modules">
+              <p-table [value]="thirdyearmodules">
+                  <ng-template pTemplate="header">
+                      <tr>
+                          <th>Module Code</th>
+                          <th>Module Name</th>
+                      </tr>
+                  </ng-template>
+                  <ng-template pTemplate="body" let-module>
+                      <tr>
+                          <td>{{module.code}}</td>
+                          <td>{{module.name}}</td>
+                      </tr>
+                  </ng-template>
+              </p-table>
+          </p-accordionTab>
+      </p-accordion>
+  </div>
+
+</div>

@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { FIRSTYEARMODULES } from '../first-year';
+import { SECONDYEARMODULES } from '../second-year';
+import { THIRDYEARMODULES } from '../third-year';
+import {TableModule} from 'primeng/table';
+
 
 @Component({
   selector: 'app-informatics',
@@ -6,6 +11,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./informatics.component.css']
 })
 export class InformaticsComponent implements OnInit {
+
+  firstyearmodules = FIRSTYEARMODULES;
+  secondyearmodules = SECONDYEARMODULES;
+  thirdyearmodules = THIRDYEARMODULES;
 
   constructor() { }
 
