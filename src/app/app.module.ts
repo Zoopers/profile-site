@@ -29,6 +29,9 @@ import { AboutComponent } from './about/about.component';
 import {CarouselModule} from 'primeng/carousel';
 import {GalleriaModule} from 'primeng/galleria';
 import { HomeComponent } from './home/home.component';
+import { SlidemenuComponent } from './slidemenu/slidemenu.component';
+
+import { SlideMenuModule } from 'cuppa-ng2-slidemenu/cuppa-ng2-slidemenu';
 
 
 @NgModule({
@@ -48,6 +51,7 @@ import { HomeComponent } from './home/home.component';
     AnimalsComponent,
     AboutComponent,
     HomeComponent,
+    SlidemenuComponent,
   ],
   imports: [
     BrowserModule,
@@ -63,7 +67,7 @@ import { HomeComponent } from './home/home.component';
     FormsModule,
     PanelModule,
     CarouselModule,
-    GalleriaModule,
+    SlideMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

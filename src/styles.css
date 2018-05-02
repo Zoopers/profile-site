@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 body {
     padding-top: 5rem;
@@ -39,4 +40,12 @@ body {
 .mediaButton {
   margin-bottom: 10px;
   justify-content: center;
+}
+
+.hamburger-inner[_ngcontent-c4], .hamburger-inner[_ngcontent-c4]::before, .hamburger-inner[_ngcontent-c4]::after {
+  background-color: lightskyblue !important;
+}
+
+.hamburger-inner[_ngcontent-c3], .hamburger-inner[_ngcontent-c3]::before, .hamburger-inner[_ngcontent-c3]::after {
+  background-color: lightskyblue !important;
 }

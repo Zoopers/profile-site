@@ -31,13 +31,14 @@ export class MenubarComponent implements OnInit {
               {label: 'Popcorn Training',  routerLink: ['/popcorntraining']}
           ]
       },
-      {
-        label: 'Personal Details',
-        items: [
-          {label: 'Overview', routerLink: ['/personaloverview']},
+      //{
+        //label: 'Personal',
+        //items: [
+          //{label: 'Overview', routerLink: ['/personaloverview']},
           //{label: 'About Me', routerLink: ['/about']},
-      ]
-      },{
+      //]
+      //},
+      {
         label: 'Hobbies and Interests',
         items: [
           {label: 'Videogames', routerLink: ['/videogames']},

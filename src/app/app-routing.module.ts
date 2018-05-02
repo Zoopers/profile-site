@@ -15,13 +15,17 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
     {path: 'home', component: HomeComponent},
+
     {path: 'bscinformatics', component: InformaticsComponent},
     {path: 'mcdst', component: McdstComponent},
+    {path: 'skills', component: SkillsComponent},
+
     {path: 'spatialdimension', component: SpatialdimensionComponent},
     {path: 'popcorntraining', component: PopcorntrainingComponent},
-    {path: 'personaloverview', component: PersonaloverviewComponent},
+    
+    //{path: 'personaloverview', component: PersonaloverviewComponent},
     //{path: 'about', component: AboutComponent},
-    {path: 'skills', component: SkillsComponent},
+
     {path: 'videogames', component: VideogamesComponent},
     {path: 'reading', component: ReadingComponent},
     {path: 'animals', component: AnimalsComponent},

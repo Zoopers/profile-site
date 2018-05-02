@@ -16,3 +16,9 @@
 #details h3 {
     margin-bottom: 2%;
 }
+
+#catphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
